@@ -1,0 +1,170 @@
+body {
+ font-family: 'Droid Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #142828;
+  color: #336666;
+  text-align: justify;
+  font-size: 11pt;
+  overflow-y: scroll;
+}
+
+pre {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, p, ol, ul {
+  margin-bottom: 1ex;
+}
+
+h1, h2, h3 {
+  margin-top: 1ex;
+}
+
+p, ol, ul {
+  margin-top: 1ex;
+}
+
+h1 {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 115%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a, a:link, a:visited {
+  color: #086782;
+}
+
+em {
+  font-style: italic;
+}
+
+ul, ol {
+  font-size: 90%;
+}
+
+/* Layout */
+
+header {
+  background-color: #336666;
+  color: #ffffff;
+}
+
+header h1 {
+  padding-top: 1ex;
+  padding-bottom: 0.5ex;
+  padding-left: 32px;
+  margin-top: 0;
+}
+
+nav ul {
+  font-size: 100%;
+}
+
+nav li {
+  float: left;
+  padding: 8px 16px;
+  border-top-left-radius: 1ex;
+  border-top-right-radius: 1ex;
+}
+
+nav li a, nav li a:visited, nav li a:link {
+  color: #e7e7e7;
+}
+
+nav li.active {
+  background-color: #e7e7e7;
+}
+
+nav li.active a, nav li.active a:visited, nav li.active a:link {
+  color: #336666;
+}
+
+header h1, header nav, section, footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+section {
+  background-color: #e7e7e7;
+  line-height: 140%;
+  padding-top: 2em;
+  padding-left: 32px;
+  padding-bottom: 2em;
+  padding-right: 32px;
+  width: 656px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 0 8px #000000;
+  border-top: none;
+}
+
+section ul {
+  margin-left: 1em;
+  list-style-type: circle;
+}
+
+footer {
+  margin-top: 1ex;
+  font-size: 80%;
+  text-align: center;
+}
+
+/* About page */
+
+p.email {
+  font-weight: bold;
+}
+
+img.me {
+  float: left;
+  margin: 2em 3em 8em 0;
+  box-shadow: 0 0 8px #000000;
+}
+
+/* Publications page */
+
+ul.pubs {
+  font-size: 100%;
+  line-height: 120%;
+  list-style-type: square;
+}
+
+ul.pubs a.title {
+  font-weight: bold;
+}
+
+.group-list {
+    -moz-column-gap: 20;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20;
+    column-count: 3;
+    column-gap: 20;
+}
+
+/* CV */
+
+.cvpdf {
+  float: right;
+  padding: 1ex;
+  background-color: #e7e7e7;
+}
